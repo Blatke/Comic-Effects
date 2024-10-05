@@ -17,7 +17,7 @@ HS2 / AIS Studio Items.
 ![19870101-00001900-Radial Speed Line 3](https://github.com/user-attachments/assets/e8724770-8180-4e9f-85a4-0c4b156e272d)
 
 ## Requirement
-It needs the shader mod, [Billboarding Cutout Shader for ME](https://github.com/Blatke/Billboarding_Cutout_Shader_for_ME/releases), to let MaterialEditor show its options on the tab. If you don't have it, click the link to get it.
+It needs the shader mod, [Billboarding Cutout Shader for ME](https://github.com/Blatke/Billboarding_Cutout_Shader_for_ME), to let MaterialEditor show its options on the tab. If you don't have it, click the link to get it.
 
 ## How to Use
 Download the .zipmod file for the latest version on the [Release](https://github.com/Blatke/Comic-Effects/releases) page, then drag and drop it into your **/mods/** folder, or use KKManager to install it.
