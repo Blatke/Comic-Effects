@@ -17,3 +17,5 @@ Watch the demonstration video to directly learn how to adjust the parameters: ht
 
 ## Troubleshooting
 When moving the view away from the center of a Comic Effect item, sometimes the item disappears, and when the view is moved back, the item then reappears. This could happen because the item in fact shows the comic effect by putting a shader onto a cube object, and when the screen moves off the boundary of the cube, the game will not get the cube rendered, and thus no comic effect it can show. **Scaling up the item size can solve this problem.** Just scale it up till you can see the comic effect on the screen. 
+
+BTW, rescaling the item does NOT affect the comic effect size, because the comic effect is a shader's job with the scale being re-defined at the rendering step.
