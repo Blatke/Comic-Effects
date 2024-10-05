@@ -19,6 +19,8 @@ HS2 / AIS Studio Items.
 ## Requirement
 It needs the shader mod, [Billboarding Cutout Shader for ME](https://github.com/Blatke/Billboarding_Cutout_Shader_for_ME), to let MaterialEditor show its options on the tab. If you don't have it, click the link to get it.
 
+**NOTE:** This mod depends on that shader mod, which means an update on this mod might rely on the update of that shader. You need to check if that shader mod was updated when you get the latest version of this mod to use.
+
 ## How to Use
 Download the .zipmod file for the latest version on the [Release](https://github.com/Blatke/Comic-Effects/releases) page, then drag and drop it into your **/mods/** folder, or use KKManager to install it.
 
