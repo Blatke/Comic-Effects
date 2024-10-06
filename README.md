@@ -16,6 +16,38 @@ HS2 / AIS Studio Items.
 
 ![19870101-00001900-Radial Speed Line 3](https://github.com/user-attachments/assets/e8724770-8180-4e9f-85a4-0c4b156e272d)
 
+4. Radial Burst 1
+
+![19870101-20241006-Radial Burst 1](https://github.com/user-attachments/assets/5389eeb7-7347-4a9c-98a5-f8745e96ff8c)
+
+5. Radial Burst 2
+
+![19870101-20241006-Radial Burst 2](https://github.com/user-attachments/assets/1bf6a133-c862-4134-90d5-fc41713be1b4)
+
+6. Streamline 1
+
+![19870101-20241006-Streamline 1](https://github.com/user-attachments/assets/f29553fb-c969-4657-838e-ab85699f17c0)
+
+7. Streamline 2
+
+![19870101-20241006-Streamline 2](https://github.com/user-attachments/assets/332962cd-c4fd-4f33-8a0e-d34b17153d27)
+
+8. Streamline 3
+
+![19870101-20241006-Streamline 3](https://github.com/user-attachments/assets/9525880d-cea9-4065-8a88-7a6d49c59f3e)
+
+9. Atmosphere 1
+
+![19870101-20241006-Atmosphere 1](https://github.com/user-attachments/assets/393280b7-3ef5-4853-a1a3-28369605af62)
+
+10. Circle 1
+
+![19870101-20241006-Circle 1](https://github.com/user-attachments/assets/dc2d74f4-cf11-4b59-9c0b-3be96030bfa5)
+
+11. Blood Spouts 1
+
+![19870101-20241006-Blood Spouts 1](https://github.com/user-attachments/assets/009edfd7-49f7-43fc-9f39-f5f986cb9d61)
+
 ## Requirement
 It needs the shader mod, [Billboarding Cutout Shader for ME](https://github.com/Blatke/Billboarding_Cutout_Shader_for_ME), to let MaterialEditor show its options on the tab. If you don't have it, click the link to get it.
 
