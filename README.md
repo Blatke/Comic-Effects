@@ -49,7 +49,7 @@ HS2 / AIS Studio Items.
 ![19870101-20241006-Blood Spouts 1](https://github.com/user-attachments/assets/009edfd7-49f7-43fc-9f39-f5f986cb9d61)
 
 ## Requirement
-It needs the shader mod, [Billboarding Cutout Shader for ME](https://github.com/Blatke/Billboarding_Cutout_Shader_for_ME), to let MaterialEditor show its options on the tab. If you don't have it, click the link to get it.
+It needs the shader mod, **[Billboarding Cutout Shader for ME](https://github.com/Blatke/Billboarding_Cutout_Shader_for_ME)**, to let MaterialEditor show its options on the tab. If you don't have it, click the link to get it.
 
 **NOTE:** This mod depends on that shader mod, which means an update on this mod might rely on the update of that shader. You need to check if that shader mod was updated when you get the latest version of this mod to use.
 
@@ -66,8 +66,18 @@ Yes you can import some textures of your own on the tab of MaterialEditor to cha
 You can also adjust the tiling and offset of the texture: https://youtu.be/qSuApclZE0s
 
 ## Troubleshooting
+### It weirdly disappears
 When moving the view away from the center of a Comic Effect item, sometimes the item disappears, and when the view is moved back, the item then reappears. This could happen because the item in fact shows the comic effect by putting a shader onto a cube object, and when the screen moves off the boundary of the cube, the game will not get the cube rendered, and thus no comic effect it can show. **Scaling up the item size can solve this problem.** Just scale it up till you can see the comic effect on the screen. 
 
 ![image](https://github.com/user-attachments/assets/59017349-dea2-45eb-9322-6d144abfad55)
 
 BTW, rescaling the item does NOT affect the comic effect size, because the comic effect is a shader's job with the scale being re-defined at the rendering step. The comic effect can be only re-scaled by using MaterialEditor on the X and Y axes. 
+### It is always covered by some objects
+With using the default shader -- _Billboarding Cutout_, the comic effect items do have the possibility of being covered by the objects nearer to the view. Like the image below, some speed lines are covered by the character placed at the front:
+
+![AI_2024-10-07-13-16-12-038](https://github.com/user-attachments/assets/9273428c-c00c-4ae7-94ed-3bad10b5df73)
+
+
+It suggests changing the comic effect item's shader to _**Billboarding Cutout Top**_, which is also in the same mod pack of the shaders, _**Billboarding Cutout Shader for ME**_, referred in the Section [Requirement](https://github.com/Blatke/Comic-Effects/edit/main/README.md#requirement). But please check its version, and make sure it's not below **v0.1.0**. The consequence of changing to the shader of _Billboarding Cutout Top_:
+
+![AI_2024-10-07-13-16-24-816](https://github.com/user-attachments/assets/e04cb579-9253-45cd-aef6-48f2ff6d3063)
