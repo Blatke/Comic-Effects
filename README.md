@@ -78,6 +78,6 @@ With using the default shader -- _Billboarding Cutout_, the comic effect items d
 ![AI_2024-10-07-13-16-12-038](https://github.com/user-attachments/assets/9273428c-c00c-4ae7-94ed-3bad10b5df73)
 
 
-It suggests changing the comic effect item's shader to _**Billboarding Cutout Top**_, which is also in the same mod pack of the shaders, _**Billboarding Cutout Shader for ME**_, referred in the Section [Requirement](https://github.com/Blatke/Comic-Effects/edit/main/README.md#requirement). But please check its version, and make sure it's not below **v0.1.0**. The consequence of changing to the shader of _Billboarding Cutout Top_:
+It suggests changing the comic effect item's shader to _**Billboarding Cutout Top**_, which is also in the same mod pack of the shaders, _**Billboarding Cutout Shader for ME**_, referred in the Section [Requirement](https://github.com/Blatke/Comic-Effects?tab=readme-ov-file#requirement). But please check its version, and make sure it's not below **v0.1.0**. The consequence of changing to the shader of _Billboarding Cutout Top_:
 
 ![AI_2024-10-07-13-16-24-816](https://github.com/user-attachments/assets/e04cb579-9253-45cd-aef6-48f2ff6d3063)
